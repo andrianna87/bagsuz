@@ -1,0 +1,145 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 4.625rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    /*border: 10px solid darkgoldenrod;*/
+    /*height: 100vh;*/
+    flex-wrap: wrap;
+    padding: 1% 0 2% 0;
+    background-color: #F4F6F7;
+}
+
+.globalButton {
+    background: #333333;
+    color: #ffffff;
+}
+
+.globalBtnWhite {
+    background: #fff;
+    color: #000000;
+}
+
+.globalButton,
+.globalBtnWhite {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 40px;
+    border-radius: 7px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+}
+
+.globalButton:hover {
+    background: #ffffff;
+    color: #333333;
+}
+
+.globalBtnWhite:hover {
+    background: #222;
+    color: #fff;
+}
+
+.arrow {
+    transform: scaleX(-1);
+}
+
+.leftContainer, .rightContainer {
+    flex: 1;
+}
+
+.goBackBtn {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+.goBackBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.goBackBtn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #5a5858;
+    transition: width 0.5s ease;
+}
+
+.goBackBtn:hover:before {
+    width: 100%;
+    background: #5a5858;
+    transition: width 0.5s ease;
+}
+
+.goBackBtn:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+.goBack {
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+

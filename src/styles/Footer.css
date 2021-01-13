@@ -1,0 +1,83 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5% 2%;
+}
+
+.footerDetails {
+    /*width: calc(25% - 10px);*/
+    margin: auto;
+}
+
+.footerDetails h2 {
+    margin-top: 0;
+}
+
+.logoName {
+    text-align: center;
+    margin: 0;
+}
+
+.footerItem a {
+    position: relative;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.footerLink,
+.footerItem {
+    display: list-item;
+}
+
+.footerLink p {
+    float: left;
+    position: relative;
+    color: #5a5858;
+    padding-bottom: 3px;
+    margin-top: 0;
+}
+
+.footerLink p:before,
+.footerItem a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.footerLink p:after,
+.footerItem a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #5a5858;
+    transition: width 0.5s ease;
+}
+
+.footerLink p:hover:before,
+.footerItem a:hover:before {
+    width: 100%;
+    background: #5a5858;
+    transition: width 0.5s ease;
+}
+
+.footerLink p:hover:after,
+.footerItem a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+.footerBottom {
+   text-align: center;
+}

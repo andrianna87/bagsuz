@@ -1,0 +1,27 @@
+.productButton {
+    margin: 2% 0 0 0;
+}
+
+.deliveryInfo {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #e5dede;
+}
+
+.productSlider {
+    background-color: darkseagreen;
+    height: 600px;
+    flex: 1 1 600px;
+}
+
+.viewAllButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewAllButton button {
+    vertical-align: center;
+    margin: 2% 0;
+}

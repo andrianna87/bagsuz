@@ -1,0 +1,37 @@
+.logo {
+    padding: 0.3125rem 0.3125rem 0.3125rem 0;
+}
+
+.rightTriangle {
+    animation: transit 2s infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes transit {
+    0% {
+        transform: translateX(-23px) translateY(10px) rotate(-9deg);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0px) rotate(0deg);
+    }
+}
+
+.leftTriangle {
+    animation: transitTwo 2s infinite;;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes transitTwo {
+    0% {
+        transform: translateX(25px) translateY(-9px) rotate(9deg);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0px) rotate(0deg);
+    }
+}

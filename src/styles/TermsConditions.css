@@ -1,0 +1,88 @@
+.accordionContainer {
+    max-width: 900px;
+    margin: auto;
+    padding: 3% 0 5%;
+}
+
+.termsContainer h1 {
+    padding-top: 7%;
+}
+
+.termsContainer:last-child {
+    padding-bottom: 5%;
+}
+
+.termsTitle {
+    display: inline;
+    padding-top: 1%;
+}
+
+.termsArrow {
+    display: inline-block;
+    float: right;
+    transform: rotate(90deg);
+}
+
+.termsText {
+    line-height: 2;
+    color: gray;
+    animation: fade-in 500ms;
+}
+
+@keyframes fade-in {
+    from {
+              opacity: 0;
+    } to {
+              opacity: 1;
+          }
+}
+
+.tab {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.circleButton {
+    display: inline-block;
+}
+
+.underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+    color: #9FA8DA;
+}
+
+.underline:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.underline:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #9FA8DA;
+    transition: width 0.5s ease;
+}
+
+.underline:hover:before {
+    width: 100%;
+    background: #9FA8DA;
+    transition: width 0.5s ease;
+}
+
+.underline:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}

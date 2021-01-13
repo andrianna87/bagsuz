@@ -1,0 +1,125 @@
+.orderForm {
+    background-color: #F4F6F7;
+}
+
+.formIntro {
+    background-color: #BDC1B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.orderLeft {
+    flex: 1;
+    background-size: cover;
+    margin-right: 2%;
+}
+
+.orderImg {
+    background: url('https://bagsuz.com/photos/1/47_cold_danube/47_detail_5.jpg') no-repeat center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.orderRight {
+    flex: 2;
+    text-align: left;
+    display: inline-block;
+    padding: 3% 4%;
+}
+
+form {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 5% 8% 6% 8%;
+}
+
+.orderSubtitle {
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 5%;
+    color: #5a5858;
+}
+
+.orderRight h2, .orderRight h3 {
+    margin-bottom: 0;
+}
+
+.disclaimer {
+    margin-top: 5%;
+    color: #5a5858;
+    line-height: 30px;
+}
+
+.ctaS {
+    padding: 3% 0 0 0;
+}
+
+span {
+    color: #5a5858;
+}
+
+.underlineLink {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0;
+    color: #5a5858;
+}
+
+.cancelBtn {
+    position: relative;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.underlineLink:before, .cancelBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.underlineLink:after {
+    background: #5a5858;
+}
+
+.cancelBtn:after {
+    background: #555;
+}
+
+.underlineLink:after, .cancelBtn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0.5s ease;
+}
+
+.underlineLink:hover:before {
+    background: #5a5858;
+}
+
+.cancelBtn:hover:before {
+    background: #555;
+}
+
+.underlineLink:hover:before, .cancelBtn:hover:before {
+    width: 100%;
+    transition: width 0.5s ease;
+}
+
+.underlineLink:hover:after, .cancelBtn:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}

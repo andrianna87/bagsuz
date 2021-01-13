@@ -1,0 +1,49 @@
+.prevCollectionIntro h1 {
+    background-color: #efefef;
+    width: 270px;
+    padding: 100px 30px;
+    font-weight: 300;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin: 3%;
+}
+
+.collectionTxt {
+    position: relative;
+    z-index: 1;
+    background-color: #BDC1B6;
+    padding: 5%;
+}
+
+.collectionTxt h3,
+.collectionTxt p {
+    width: 80%;
+}
+
+.collectionTxt p span {
+    opacity: 0.5;
+}
+
+.collectionImg {
+    flex: 1;
+    background: url('https://bagsuz.com/photos/1/0107_croton/croton_diteil_5.jpg') no-repeat top;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    text-align: right;
+    /*margin: 6% 20%;*/
+}
+
+.collectionSubtitle {
+    width: 100%;
+    display: flex;
+    padding: 2% 5%;
+}
+
+.collectionTag {
+    letter-spacing: 6px;
+}
+

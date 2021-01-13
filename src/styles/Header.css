@@ -1,0 +1,56 @@
+header {
+    background-color: #fff;
+    padding: 0.625rem 0.9375rem;
+    position: relative;
+    z-index: 10;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle {
+    display: inline-table;
+}
+
+.middleItem {
+    margin-right: 1.5rem;
+}
+
+.contactMenu {
+    display: table-cell;
+}
+
+.menu {
+    animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menu ul {
+    position: absolute;
+    margin: 0;
+    padding: 15px 0 20px 0;
+}
+
+.menu ul li {
+    background-color: #efefef;
+    position: relative;
+    padding: 0 1.25rem;
+}
+
+.menu ul li h3 {
+    padding: 10px;
+    margin: 0;
+}
+

@@ -1,0 +1,73 @@
+{
+  "collections": [
+    {
+      "id": 0,
+      "title" : "Asarum",
+      "image" : "https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/34983346_1676738669108826_6013249905718460416_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=-A8101__2L8AX_pflIQ&oh=bded8d1dbd8bc6b566023729d0b5318d&oe=5ECE9EE4",
+      "type" : "tote bag"
+    },
+
+    {
+      "id": 1,
+      "title" : "Helianthus",
+      "image" : "https://bagsuz.com/photos/1/19_helianthus/helianthus.jpg",
+      "type" : "backpack"
+    },
+
+    {
+      "id": 2,
+      "title" : "Blakulla",
+      "image" : "https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/35272882_117974042402870_6128431849036316672_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=VT2M49lnHNsAX924Et2&oh=4cee8a8b6ba6ee7f5645ab3cf172fd15&oe=5ECDD453",
+      "type" : "backpack"
+    },
+    {
+      "id": 3,
+      "title" : "Syconium",
+      "image" : "https://bagsuz.com/photos/1/0111_syconium/syconium_detail_2.jpg",
+      "type" : "tote bag"
+    },
+    {
+      "id": 4,
+      "title" : "Papyrus",
+      "image" : "https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/39342362_405572599968751_6323838910950539264_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=QM9BaMLjNiIAX9L_4jg&oh=771917b64b1ebe91f979fd8aad376b22&oe=5ECECE9F",
+      "type" : "tote bag"
+    },
+    {
+      "id": 5,
+      "title" : "Rowe",
+      "image" : "https://bagsuz.com/photos/1/11_rowe/rowe.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 6,
+      "title" : "Pale Beige",
+      "image" : "https://bagsuz.com/photos/1/09_pale_beige/pale_beige.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 7,
+      "title" : "Aigiptos",
+      "image" : "https://bagsuz.com/photos/1/46_aigiptos/aigiptos_detail_4.jpg",
+      "type" : "tote bag"
+    },
+    {
+      "id": 8,
+      "title" : "Back To Back",
+      "image" : "https://bagsuz.com/photos/1/25_back_to_back/b_to_b_sec.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 9,
+      "title" : "Huawang",
+      "image" : "https://bagsuz.com/photos/1/90_huawang/huawang_1.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 9,
+      "title" : "Cinnamon Latte",
+      "image" : "https://bagsuz.com/photos/1/03_cinnamon_late/cinnamon_latte_detail_1.jpg",
+      "type" : "backpack"
+    }
+  ]
+}
+

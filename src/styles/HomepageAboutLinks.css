@@ -1,0 +1,107 @@
+.linksWrapper {
+    display: flex;
+    background-color: #BDC1B6;
+    padding: 8% 5% 6% 5%;
+}
+
+.linksColumnOne, .linksColumnThree {
+    width: 33%;
+}
+
+.linksColumnOne, .linksColumnTwo, .linksColumnThree {
+    /*margin: 5%;*/
+}
+
+.linksColumnOne {
+    flex: 1;
+    order: 1;
+    /*background-color: peru;*/
+}
+
+.linksColumnTwo {
+    flex: 1;
+    order: 2;
+    /*background-color: #007c89;*/
+    margin: 0 5%;
+}
+
+.linksColumnThree {
+    flex: 1;
+    order: 3;
+    /*background-color: indianred;*/
+}
+
+.linksImgOne, .linksImgTwo, .linksImgThree {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+}
+
+.linksImgOne {
+    background: url('https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/36085573_194123607922624_1098625507303358464_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=FPWzib1p6DoAX_OlufS&oh=a5965a8d536c0096fcf6416eec59e1a1&oe=5ECF5AA5') no-repeat center;
+    background-size: contain;
+}
+
+.linksImgTwo {
+    background: url('https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/28156606_985821364900112_8120852106610475008_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=OVkyWKYHdU0AX_JHqhP&oh=eb7e2770a8cfac28a81afe37d1cca89e&oe=5ECE7CAD') no-repeat center;
+    background-size: contain;
+}
+
+.linksImgThree {
+    background: url('https://instagram.fbeg2-1.fna.fbcdn.net/v/t51.2885-15/e35/34983346_1676738669108826_6013249905718460416_n.jpg?_nc_ht=instagram.fbeg2-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=-A8101__2L8AX_pflIQ&oh=bded8d1dbd8bc6b566023729d0b5318d&oe=5ECE9EE4') no-repeat center;
+    background-size: contain;
+}
+
+.aboutSectionTxt {
+    margin: 10% 10% 0 10%;
+}
+
+.aboutSectionTxt h2 {
+    margin-bottom: 0;
+}
+
+.aboutSectionTxt p {
+    color: white;
+}
+
+.linksTag {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.linksTag:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.linksTag:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: white;
+    transition: width 0.5s ease;
+}
+
+.linksTag:hover:before {
+    width: 100%;
+    background: white;
+    transition: width 0.5s ease;
+}
+
+.linksTag:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}

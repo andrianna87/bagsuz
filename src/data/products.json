@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "title" : "Cinnamon Latte",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/29093301_2100065326901722_4766426607701196800_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=tFQXGKIcmdMAX-EVIpO&oh=f5a1926a5464d9b1b0712eeb793bc856&oe=5EC8070A",
+      "detailImg" : "https://bagsuz.com/photos/1/65_zingiberis/zingiberis.jpg",
+      "detailImgTwo" : "https://bagsuz.com/photos/1/65_zingiberis/zingiberis_detail_2.jpg",
+      "type" : "tote bag"
+    },
+
+    {
+      "id": 1,
+      "title" : "Reticulata",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/88_reticulata/reticulata.jpg",
+      "type" : "backpack"
+    },
+
+    {
+      "id": 2,
+      "title" : "Black Sun",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/35425344_175475146454041_1894463456690569216_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=cc-dGXzgpKwAX8JH_0o&oh=1b43ca09e1cb6d7067de425e38f1234a&oe=5ED6F4C0",
+      "type" : "tote bag"
+    },
+    {
+      "id": 3,
+      "title" : "Scafell Pike",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/75_scafell_pike/scafell_pike.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 4,
+      "title" : "Chapala",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/e35/41599843_169109233948817_640469401806078602_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=2kSnQzLrXwoAX9gQI7S&oh=e056f930586736354d561b86c73e761e&oe=5ECE40FB",
+      "type" : "backpack"
+    },
+    {
+      "id": 5,
+      "title" : "Con Dao",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/72_con_dao/con_dao_detail_5.jpg",
+      "type" : "tote bag"
+    },
+    {
+      "id": 6,
+      "title" : "Citlaltepetl",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/66_citlaltepetl/citlaltepetl.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 7,
+      "title" : "Loam Sea",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/e35/29090866_1348889481878397_4757843033955762176_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=ZrBz8Lzxw74AX9NU8q5&oh=13f951e993103d4598049455f1ac3130&oe=5EBD4FC7",
+      "type" : "tote bag"
+    },
+    {
+      "id": 8,
+      "title" : "Tlilxochitl",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/61_tlilxochitl/tlilxochitl.jpg",
+      "type" : "backpack"
+    },
+    {
+      "id": 9,
+      "title" : "Reynisfjara",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/25039310_153391235371115_2667623244315492352_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0FJx3__0VjYAX_lpGuU&oh=c3316dee33c9557e4f12ba0c98a9ff9e&oe=5ED0FA3E",
+      "type" : "backpack"
+    },
+    {
+      "id": 9,
+      "title" : "Vardar",
+      "price" : "RSD 2.500 / €25 / $20",
+      "image" : "https://bagsuz.com/photos/1/59_vardar/vardar.jpg",
+      "type" : "backpack"
+    }
+  ]
+}
+

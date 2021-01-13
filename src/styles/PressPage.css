@@ -1,0 +1,138 @@
+.pressPage {
+    background-color: #F4F6F7;
+    margin: auto;
+    text-align: center;
+    padding: 5% 8% 6% 8%;
+}
+
+.pressIntro {
+    /*background-color: #efefef;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.pressIntro h1 {
+    font-weight: 300;
+    color: #5a5858;
+}
+
+.press {
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.press:hover {
+    background-color: white;
+    transition: background-color 250ms linear;
+}
+
+.pressImg {
+    flex: 1 1 250px;
+}
+
+.articleImgOne, .articleImgTwo, .articleImgThree {
+    background-size: cover;
+    height: 350px;
+}
+
+.articleImgOne {
+    background: url('https://scontent.fbeg5-1.fna.fbcdn.net/v/t31.0-8/24837651_275281109662818_7706904396090488609_o.jpg?_nc_cat=103&_nc_sid=110474&_nc_ohc=qtCRW-HtCygAX-7TX_f&_nc_ht=scontent.fbeg5-1.fna&oh=3e7c8e1e4c65504fecfeccaa145abdad&oe=5EEC38D4') no-repeat center;
+    background-size: cover;
+}
+
+.articleImgTwo {
+    background: url('https://scontent.fbeg5-1.fna.fbcdn.net/v/t31.0-8/21246242_236884420169154_3049769327177570963_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=1I6qqJJRQisAX-EWdTB&_nc_ht=scontent.fbeg5-1.fna&oh=4ad380ee1e79c7ae0376af37971dec82&oe=5EF3F877') no-repeat center;
+    background-size: cover;
+}
+
+.pressText {
+    flex: 4 1 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.pressText h3, .pressText p {
+    color: #5a5858;
+}
+
+.pressText h2 {
+    cursor: pointer;
+}
+
+.pressText h2:hover {
+    color: #5a5858;
+}
+
+.pressTextCentering {
+    padding: 2% 5%;
+}
+
+.readPress {
+    flex: 0 1 150px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.circleButton {
+    margin-left: 45%;
+}
+
+.loadMoreBtn {
+    margin: 3% 3% 0 3%;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.loadMoreBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.loadMoreBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background 0.5s ease;
+}
+
+.loadMoreBtn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #555;
+    transition: width 0.5s ease;
+}
+
+.loadMoreBtn:hover:before {
+    width: 100%;
+    background: #555;
+    transition: width 0.5s ease;
+}
+
+.loadMoreBtn:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
