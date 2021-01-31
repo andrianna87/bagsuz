@@ -100,7 +100,7 @@
 .bannerRight {
     display: flex;
     flex: 1;
-    background: linear-gradient(to bottom, rgba(47,79,79, 0.42), rgba(47,79,79, 0.52)), url('/images/homepage.jpg') no-repeat top;
+    background: linear-gradient(to bottom, rgba(47,79,79, 0.42), rgba(47,79,79, 0.52)), url('https://bagsuz.com/photos/1/66_citlaltepetl/citlaltepetl_detail_2.jpg') no-repeat top;
     /*background: url('https://bagsuz.com/photos/1/34_erysimum_canaries/erysimum_canaries_detail_4.jpg') no-repeat center;*/
     background-size: cover;
     height: 800px;
