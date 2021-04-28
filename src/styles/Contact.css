@@ -21,7 +21,7 @@
 }
 
 .contactImg {
-    background: url('https://instagram.fbeg5-1.fna.fbcdn.net/v/t51.2885-15/e35/36085573_194123607922624_1098625507303358464_n.jpg?_nc_ht=instagram.fbeg5-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=KKT49Hvv9UMAX-uUt8Q&oh=b90859fb1a32608ff9c9a1ee89353c8a&oe=5EE1185B') no-repeat center;
+    background: url('/images/backpack-image02.jpg') no-repeat center;
     background-size: cover;
     height: 350px;
     width: 100%;
