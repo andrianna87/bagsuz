@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c1dead16f27195789b2cd075de722ec",
+    "revision": "90f872801b9e436f863030f3b19ee472",
     "url": "/bagsuz/index.html"
   },
   {
-    "revision": "5f91ca223f25de56c6b8",
+    "revision": "e3d59fd5b5bd297dd129",
     "url": "/bagsuz/static/css/main.47a549d8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bagsuz/static/js/2.cbd42ca1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f91ca223f25de56c6b8",
-    "url": "/bagsuz/static/js/main.b9756ed4.chunk.js"
+    "revision": "e3d59fd5b5bd297dd129",
+    "url": "/bagsuz/static/js/main.9db586fa.chunk.js"
   },
   {
     "revision": "9d600bf8e8bdfe897fd4",
