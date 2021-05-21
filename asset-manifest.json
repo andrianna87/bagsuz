@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bagsuz/static/css/main.47a549d8.chunk.css",
-    "main.js": "/bagsuz/static/js/main.6e36f6fb.chunk.js",
-    "main.js.map": "/bagsuz/static/js/main.6e36f6fb.chunk.js.map",
+    "main.js": "/bagsuz/static/js/main.b9756ed4.chunk.js",
+    "main.js.map": "/bagsuz/static/js/main.b9756ed4.chunk.js.map",
     "runtime-main.js": "/bagsuz/static/js/runtime-main.487e0d82.js",
     "runtime-main.js.map": "/bagsuz/static/js/runtime-main.487e0d82.js.map",
     "static/js/2.cbd42ca1.chunk.js": "/bagsuz/static/js/2.cbd42ca1.chunk.js",
     "static/js/2.cbd42ca1.chunk.js.map": "/bagsuz/static/js/2.cbd42ca1.chunk.js.map",
     "index.html": "/bagsuz/index.html",
-    "precache-manifest.97265ac495615014ccfb8eea8f5abf0b.js": "/bagsuz/precache-manifest.97265ac495615014ccfb8eea8f5abf0b.js",
+    "precache-manifest.305445d9008993118498b5b78e6d8d63.js": "/bagsuz/precache-manifest.305445d9008993118498b5b78e6d8d63.js",
     "service-worker.js": "/bagsuz/service-worker.js",
     "static/css/main.47a549d8.chunk.css.map": "/bagsuz/static/css/main.47a549d8.chunk.css.map",
     "static/js/2.cbd42ca1.chunk.js.LICENSE.txt": "/bagsuz/static/js/2.cbd42ca1.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.487e0d82.js",
     "static/js/2.cbd42ca1.chunk.js",
     "static/css/main.47a549d8.chunk.css",
-    "static/js/main.6e36f6fb.chunk.js"
+    "static/js/main.b9756ed4.chunk.js"
   ]
 }
