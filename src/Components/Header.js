@@ -55,6 +55,7 @@ export default class Header extends React.Component {
                         <NavLink to="/" exact="true" style={{ textDecoration: 'none', color: '#333333' }}>
                             <BagsuzLogo/>
                         </NavLink>
+                        {process.env.PUBLIC_URL}
                     </div>
                     <div className="middle">
                         <h3 className="middleItem">
