@@ -20,15 +20,15 @@ const AppRouter = () => {
             <div>
                 <Header />
                 <Switch>
-                    <Route path="/" component={Homepage} exact={true}/>
-                    <Route path="/shop" component={ProductList}/>
-                    <Route path="/product/:productId" component={ProductDetails}/>
-                    <Route path="/order" component={OrderForm}/>
-                    <Route path="/about" component={About}/>
-                    <Route path="/press" component={PressPage}/>
-                    <Route path="/prev-collections" component={PrevCollections}/>
-                    <Route path="/contact" component={Contact}/>
-                    <Route path="/terms-of-use" component={TermsConditions}/>
+                    <Route path={`${process.env.PUBLIC_URL}/`} component={Homepage} exact={true}/>
+                    <Route path={`${process.env.PUBLIC_URL}/shop`} component={ProductList}/>
+                    <Route path={`${process.env.PUBLIC_URL}/product/:productId`} component={ProductDetails}/>
+                    <Route path={`${process.env.PUBLIC_URL}/order`} component={OrderForm}/>
+                    <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/>
+                    <Route path={`${process.env.PUBLIC_URL}/press`} component={PressPage}/>
+                    <Route path={`${process.env.PUBLIC_URL}/prev-collections`} component={PrevCollections}/>
+                    <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
+                    <Route path={`${process.env.PUBLIC_URL}/terms-of-use`} component={TermsConditions}/>
                     <Route component={NotFound}/>
                 </Switch>
             <Footer />

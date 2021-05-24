@@ -9,7 +9,6 @@ const btnStyle = {
 const HomepageIntro = () => {
     return(
         <div className="introSection">
-
             <div className="bannerLeft">
                 <div className="bannerLeftImg">
                     <p className="newTag">NEW</p>
