@@ -4,7 +4,7 @@
       "id": 0,
       "title" : "Cinnamon Latte",
       "price" : "RSD 2.500 / €25 / $20",
-      "image" : "url('../images/cinammon.jpg')",
+      "image" : "../images/cinammon.jpg",
       "detailImg" : "https://bagsuz.com/photos/1/65_zingiberis/zingiberis.jpg",
       "detailImgTwo" : "https://bagsuz.com/photos/1/65_zingiberis/zingiberis_detail_2.jpg",
       "type" : "tote bag"
